@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyPortfolio</title>
+      </head>
+      <body>
+        <main>
+          <h1>my professional Portfolio</h1>
+          <nav>
+            <a href="#section2">MY SKILLS </a>
+            <span>|</span>
+            <a href="#section3">MY PROJECTS </a> 
+            <span>|</span>
+            <a href="#section5">CONTACT ME</a>
+        </nav>
+          <section id="section1">
+            <h2>welcome to my professional portfolio</h2>
+            <p>hi! im toqa, a passionate front-end dev, i create responsive web pages</p>
+          </section >
+          <section id="section2">
+            <h2>My skills :</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Designing Responsive sites</li>
+            </ul>
+         </section>
+           <section id="section3">
+            <h2>My projects:</h2>
+            <p>check the projects in my <a href="https://github.com/ToqaKotb">github</a> account </p>
+            <ol>
+              <li>A website</li>
+              <p> A responsive website build with html and CSS</p>
+              <li>Intractive web app</li>
+              <p> An intractive wep app build with html,css and javascript</p>
+              <li>Responsive layout</li>
+              <p>a responsive layout for a landing page build with with mobile first design</p>
+            </ol>
+          </section>
+          <section id="section4">
+            <h2>Multimedia</h2>
+            <h3>favourit video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kUMe1FH4CHE" frameborder="0" allowfullscreen></iframe>
+            <h3>favourit song</h3>
+            <iframe src="https://open.spotify.com/embed/track/23dl021k6ZO3afFgS6TLr7" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+          </section> 
+          <section id="section5">
+            <h2>Contact me</h2>
+            <p>name: toqa hossam</p>
+            <p>email: hossamtoqa@gmail.com</p>
+            <p>message me <input type="text" name="message me" placeholder="Message me" required>
+                <button type="send">send</button></p>
+          </section>   
+        </main>
+        <footer>
+          <p>c 2024 Toqa, All rights reserved</p>
+          <p><a href="https://www.linkedin.com/in/toqa-hossam-86bb90303/">linkedin</a>| <a href="https://github.com/ToqaKotb">github</a></p>
+        </footer>
+      </body>
+    </html>
